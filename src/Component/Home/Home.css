@@ -1,0 +1,8 @@
+#about .img-fluid{
+    width: 97%;
+    height: 96%;
+    float: right;
+    object-fit: cover;
+
+
+}
