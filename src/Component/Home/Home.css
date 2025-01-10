@@ -6,3 +6,33 @@
 
 
 }
+body{
+        scroll-behavior: smooth;
+    
+}
+.courses .btn,.about .btn{
+    border: 2px solid #de9ed4;
+    color: #fff;
+    background: #946994;
+}
+.courses .btn:hover,.about .btn:hover{
+    border: 2px solid #946994;
+    color: #946994;
+    background:  #f8f8f8;
+}
+.courses img,.trainers img{
+     height: 29vh; 
+    object-fit: cover;
+    border-radius: 4px;
+}
+.courses .card{
+    padding-bottom: 2%;
+
+}
+.courses .card .btn{
+    width: 94%;
+    margin: auto;
+}
+.trainers img{
+    width: 95%;
+}

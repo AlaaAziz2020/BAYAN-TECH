@@ -15,7 +15,7 @@ export default function Navbar() {
       <nav id="navmenu" className="navmenu">
         <ul>
           <li><Link to="/home" className="active">Home<br /></Link></li>
-          <li><Link href="/">About</Link></li>
+          <li><Link href="#about">About</Link></li>
           <li><Link href="/">Courses</Link></li>
           <li><Link href="/">Trainers</Link></li>
 

@@ -1,0 +1,10 @@
+.trainers .btn{
+    border: 2px solid #de9ed4;
+    color: #fff;
+    background: #946994;
+}
+.trainers .btn:hover{
+    border: 2px solid #946994;
+    color: #946994;
+    background:  #f8f8f8;
+}

@@ -2,22 +2,31 @@
   "name": "bayanacademy",
   "version": "0.1.0",
   "private": true,
+  "home": "http://AlaaAziz2020.github.io/Bayan-tech",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.7.2",
+    "axios": "^1.7.9",
     "bootstrap": "^5.3.3",
     "cra-template": "1.2.0",
     "jquery": "^3.7.1",
     "js": "^0.1.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hot-toast": "^2.5.1",
+    "react-loader-spinner": "^6.1.6",
     "react-router-dom": "^7.1.1",
     "react-scripts": "5.0.1",
+    "react-slick": "^0.30.3",
+    "slick-carousel": "^1.8.1",
+    "toast": "^0.5.4",
     "web-vitals": "^4.2.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
