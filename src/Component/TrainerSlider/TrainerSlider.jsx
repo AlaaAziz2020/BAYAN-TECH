@@ -34,7 +34,7 @@ export default function TrainerSlider() {
 
     return (
         <>
-        <div className="trainers mt-5">
+        <div id="trainers" className="trainers mt-5">
             <div className="container">
             <div className="row">
             <div className="col-md-12">

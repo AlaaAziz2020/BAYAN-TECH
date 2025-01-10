@@ -520,6 +520,45 @@
     .mobile-nav-active .navmenu>ul {
       display: block;
     }
+    /* Ensure navmenu ul is hidden by default */
+.navmenu ul {
+  display: none; /* Hidden by default */
+  list-style: none;
+  position: absolute;
+  inset: 60px 20px 20px 20px;
+  padding: 10px 0;
+  margin: 0;
+  border-radius: 6px;
+  background-color: var(--nav-mobile-background-color);
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  box-shadow: none;
+  overflow-y: auto;
+  transition: 0.3s;
+  z-index: 9998;
+}
+
+/* When mobile-nav-active is applied, show the ul */
+.navmenu.mobile-nav-active ul {
+  display: block; /* Make the menu visible */
+  position: static; /* Adjust positioning if necessary */
+  margin: 0;
+  padding: 10px 0;
+}
+
+/* Optional: Transition for smooth appearance */
+.navmenu.mobile-nav-active ul {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
   }
   
   /*--------------------------------------------------------------

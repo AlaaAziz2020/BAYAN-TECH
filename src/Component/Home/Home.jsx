@@ -68,7 +68,7 @@ export default function Home() {
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              <h3>Voluptatem dignissimos provident quasi corporis</h3>
+              <h3>About Us</h3>
               <p className="fst-italic">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -103,9 +103,9 @@ export default function Home() {
       </div>
 
       {/* Courses Section */}
-      <div className="courses  mt-5 mb-5" to='/'>
+      <div id="courses" className="courses  mt-5 mb-5" to='/'>
         <div className="container">
-        <div className="row slice(1, 3)">
+        <div className="row ">
       <h3>Courses</h3>
 
   {courses.map((course) => (

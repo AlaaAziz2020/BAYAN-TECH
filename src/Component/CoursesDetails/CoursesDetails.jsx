@@ -22,18 +22,18 @@ export default function CoursesDetails() {
       setLoading(false);
     }
   };
-  const addCourseItem = async (trainerId) => {
+  const addCourseItem = async (courseId) => {
     try {
-      const response = await addCourseItem(trainerId);
+      const response = await addCourseItem(courseId);
       console.log(response); // Debug the response structure
 
       if (response?.createdAt) {
-        toast.success('trainer added to cart!', {
+        toast.success('course added to cart!', {
           duration: 4000,
           position: 'top-left',
         });
       } else {
-        toast.error('Failed to add trainer to cart.', {
+        toast.error('Failed to add course to cart.', {
           duration: 4000,
           position: 'top-left',
         });
